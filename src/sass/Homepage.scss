@@ -1,0 +1,7 @@
+@import "_variables.scss";
+
+.Homepage {
+    height: calc(100vh - 60px);
+    background: rgb(0,128,197);
+    background: linear-gradient(187deg,rgba(255,255,255,1) 22%, $mainColor 23%, $mainColor 79%, rgba(255,255,255,1) 80%);
+}

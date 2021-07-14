@@ -1,0 +1,32 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+.Navigation {
+    width: 100vw;
+    height: 60px;
+    background-color: $mainColor;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    span {
+        margin: auto auto;
+        color: #fff;
+        font-size: 26px;
+        padding: auto 5vw;
+        :hover {
+            color: $hoverColor;
+            cursor: pointer;
+        }
+    }
+    div {
+        height: 60px;
+        span {
+            font-size: 26px;
+            margin: 17px 10px;
+            :hover {
+                color: $hoverColor;
+                cursor: pointer;
+            }
+        }
+    }
+}
